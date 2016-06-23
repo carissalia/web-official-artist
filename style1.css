@@ -1,0 +1,43 @@
+@charset "utf-8";
+nav ul {list-style:none; //menghilangkan tanda pada pinggir ist
+width:900px;
+height:50px;}
+
+nav ul a {text-decoration:none; //megnhilangkan efek teks atau link , 
+disini kita gunakan untuk menghilangkan garis bawah link}
+
+nav ul li ul{display:none; //menyembunyikan menu saat pointer tidak sedang di atasnya 
+padding-left:0px; //mengatur padding
+width:150px;}
+
+nav ul li:hover ul{display::block; //menampilkan menu saat pointer diatasnya}
+
+nav ul li:hover{background:#000;}
+
+nav ul li{float:left;
+			width:200px;
+			height:35px;
+			background:#990E00;
+			text-align:center;
+			padding-top:15px;
+			position:center}
+		
+nav a{color:#FFF;
+font-family: sans-serif;
+font-size:11pt;} 
+
+
+/* CSS Document ini buat html href */
+
+.send {
+	color: #C0C0C0;
+}
+#send {
+	color: #C0C0C0;
+}
+#send {
+	color: #FFF;
+}
+#send {
+	color: #000;
+}
